@@ -56,6 +56,7 @@ Raw worksite names appear in multiple variants for the same company. Normalizati
 ---
 
 ### Page 1 — Cover & KPI Summary
+<img width="1391" height="638" alt="image" src="https://github.com/user-attachments/assets/0e8366d6-5189-4f57-8266-2370383dfadd" />
 
 **Data file**: `data_exports/01_kpi_summary.csv`
 
