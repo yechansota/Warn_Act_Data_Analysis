@@ -1,0 +1,16 @@
+company_normalized,total_events,valid_events,total_layoffs,avg_lead_days,compliance_rate_pct,industry,first_filing_year,last_filing_year,span_years
+ZACHRY INDUSTRIAL,4,0,4410,,,Construction_Real_Estate,2024,2024,0
+AMERICAN AIRLINES,5,2,2811,55.0,0.0,Logistics_Transportation,2021,2021,0
+SOUTHWEST KEY PROGRAMS,15,15,1300,61.1,93.3,Public_Nonprofit,2025,2025,0
+JC PENNEY,4,4,1246,64.8,50.0,Retail_Food,2020,2025,5
+TURNER INDUSTRIES,6,6,1231,55.2,66.7,Construction_Real_Estate,2020,2025,5
+SOUTHWEST,6,6,1227,84.8,100.0,Logistics_Transportation,2020,2025,5
+SODEXO,6,4,906,49.8,50.0,Staffing_Services,2019,2025,6
+MANAGEMENT TRAINING CORPORATION,13,13,897,60.5,53.8,Public_Nonprofit,2023,2025,2
+CONCENTRIX CVG,4,4,861,76.8,100.0,Unknown,2019,2021,2
+TEXAS CENTRAL SCHOOL BUS,4,3,769,76.7,100.0,Public_Nonprofit,2020,2025,5
+DAVID S BRIDAL,24,24,731,0.0,0.0,Retail_Food,2023,2023,0
+CENTRAL FREIGHT LINES,4,4,673,1.0,0.0,Logistics_Transportation,2021,2021,0
+LUKE HOLDINGS,5,0,666,,,Unknown,2025,2025,0
+FIRST BRANDS GROUP,4,3,658,57.0,0.0,Manufacturing,2026,2026,0
+YELLOW FREIGHT,5,0,621,,,Logistics_Transportation,2023,2023,0
