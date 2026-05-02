@@ -65,6 +65,7 @@ Five headline KPIs are presented on a single cover page: 2,340 total WARN filing
 
 ### Page 2 — Industry × Year 60-Day Compliance Rate Heatmap
 <img width="905" height="702" alt="image" src="https://github.com/user-attachments/assets/b81ef2be-c73c-4560-8c72-20a31aa42409" />
+
 **Data file**: `data_exports/02_industry_year_heatmap.csv`
 
 A 10-industry × 7-year matrix shows the 60-day compliance rate at each intersection for 2019–2025. Each cell displays the compliance percentage and the underlying event count (n=). Cells with fewer than 3 events are shown as "n/a" to prevent inference from negligible samples. The 2020 column is bordered in red to mark the COVID shock year.
@@ -75,6 +76,7 @@ Manufacturing and Tech/IT maintain the highest compliance rates across all years
 
 ### Page 3 — Quarterly 60-Day Compliance Rate vs. Economic Cycles
 <img width="979" height="759" alt="image" src="https://github.com/user-attachments/assets/b705a538-5456-48bc-b6d5-b5c0b120108e" />
+
 **Data file**: `data_exports/03_quarterly_trend.csv`
 
 A line chart plots quarterly compliance rate from 2019Q1 through 2025Q4, with a 4-quarter centered moving average overlaid for trend smoothing. The 60-day legal floor is marked as a horizontal dashed line at 60%. COVID shock (2020Q1–Q2) and the Federal Reserve rate hike cycle (2022Q1–2023Q4) are marked with shaded bands. The minimum is 2020Q1 at 13.3% and the maximum is 2019Q3 at 69.7%.
@@ -85,6 +87,7 @@ No quarter since 2019 has sustained compliance above 70%. The moving average sho
 
 ### Page 4 — Valid WARN Filings per Quarter
 <img width="965" height="743" alt="image" src="https://github.com/user-attachments/assets/fa340116-0ac6-4e01-8054-fdcf86d86cf7" />
+
 **Data file**: `data_exports/03_quarterly_trend.csv`
 
 A bar chart shows the count of valid WARN events per quarter. Bars exceeding twice the quarterly mean are highlighted and labeled. The quarterly mean (47 events) is shown as a red dashed line.
@@ -95,6 +98,7 @@ A bar chart shows the count of valid WARN events per quarter. Bars exceeding twi
 
 ### Page 5 — WDA Regional Compliance Profile
 <img width="923" height="717" alt="image" src="https://github.com/user-attachments/assets/23d3e1cd-f6e8-4dbf-b359-245bad0bd704" />
+
 **Data file**: `data_exports/04a_wda_compliance.csv`
 
 A horizontal bar chart ranks all 21 Texas Workforce Development Areas by 60-day compliance rate. The top 5 and bottom 5 WDAs are highlighted. Each bar is labeled with the compliance rate and valid event count.
@@ -105,6 +109,7 @@ No WDA in Texas exceeds 50% compliance. North Central Texas (DFW) leads at 47.4%
 
 ### Page 6 — Compliance vs. Layoff Scale
 <img width="947" height="747" alt="image" src="https://github.com/user-attachments/assets/834cd527-a5b4-46bd-aa65-c26dd1a22203" />
+
 **Data file**: `data_exports/04b_wda_scatter.csv`
 
 A scatter plot maps WDAs on two axes: 60-day compliance rate (x) and average layoff size in workers (y). Bubble size is proportional to the total event count for that WDA. Top 5 and bottom 5 compliance WDAs are highlighted; all others are shown in gray.
@@ -115,6 +120,7 @@ There is no strong correlation between compliance rate and average layoff size a
 
 ### Page 7 — Top 15 by Workers Displaced
 <img width="909" height="712" alt="image" src="https://github.com/user-attachments/assets/452d9296-30f9-4808-b9c5-327e948247cd" />
+
 **Data file**: `data_exports/05a_cohort_top15.csv`
 
 A horizontal bar chart ranks the 15 companies (among those with 4 or more WARN filings) by cumulative workers displaced. Zachry Industrial and American Airlines are highlighted; the second-ranked entity is highlighted as a reference point.
@@ -125,6 +131,7 @@ Zachry Industrial displaced 4,410 workers across 4 large industrial construction
 
 ### Page 8 — Compliance vs. Lead Days by Company
 <img width="939" height="733" alt="image" src="https://github.com/user-attachments/assets/0853cebc-4655-4e96-865b-aa5b8ab4e5c4" />
+
 **Data file**: `data_exports/05b_cohort_scatter.csv`
 
 A scatter plot maps each company in the repeat-offender cohort (4+ events) on two axes: 60-day compliance rate (x) and average notice lead days (y). Bubble size reflects total workers displaced. The top 5 and bottom 5 compliance companies are highlighted; all others are gray. No text labels are shown — color alone identifies the extreme groups.
@@ -135,6 +142,7 @@ Companies clustered at 0% compliance have never once filed within the 60-day thr
 
 ### Page 9 — Distribution of Repeat Filing Frequency
 <img width="961" height="751" alt="image" src="https://github.com/user-attachments/assets/1c95c3a8-1c57-4cbd-9969-a63222c71fa7" />
+
 **Data file**: `data_exports/05c_cohort_event_distribution.csv`
 
 A bar chart shows how many companies appear at each filing frequency — exactly twice, three times, four times, and so on. The most frequent bucket is highlighted.
@@ -145,6 +153,7 @@ The majority of repeat filers appear exactly twice, suggesting a one-time struct
 
 ### Page 10 — Repeat Filings by Industry
 <img width="921" height="714" alt="image" src="https://github.com/user-attachments/assets/e5a020c0-6154-4b10-a5d0-63acb94155a1" />
+
 **Data file**: `data_exports/05d_cohort_industry.csv`
 
 A horizontal bar chart shows total WARN events and company count for each industry within the repeat-offender cohort (2+ filings). Total events are shown as filled bars; company count is shown as an outline overlay on the same bars. Public/Nonprofit, Retail & Food, and Logistics are highlighted; all other industries are shown in gray.
@@ -155,6 +164,7 @@ Retail & Food leads in total repeat-offender events, driven primarily by franchi
 
 ### Page 11 — Annual Retroactive Filing Volume
 <img width="873" height="678" alt="image" src="https://github.com/user-attachments/assets/4bbd2dc3-09ec-48e8-9dbb-f762a61541bd" />
+
 **Data file**: `data_exports/06a_retro_yearly.csv`
 
 A bar chart shows the count of retroactive filings (filed after layoff date) by year from 2019 through 2026. The 2020 bar is highlighted. A trend line fitted to 2021–2026 data is overlaid as a dashed line.
@@ -165,6 +175,7 @@ A bar chart shows the count of retroactive filings (filed after layoff date) by 
 
 ### Page 12 — How Late Are Retroactive Filings?
 <img width="972" height="750" alt="image" src="https://github.com/user-attachments/assets/a992cb39-ba8c-4cdb-be4a-356a62ce52a3" />
+
 **Data file**: `data_exports/06b_retro_delay_distribution.csv`
 
 A histogram shows the distribution of delay between layoff date and notice date across all 807 retroactive filings (capped at 365 days). Each bin is labeled with its count. The median and mean delay are marked as vertical reference lines.
@@ -175,6 +186,7 @@ The distribution is right-skewed. The tallest bin concentrates near 0–10 days,
 
 ### Page 13 — Industry Use of Exception Clause
 <img width="912" height="714" alt="image" src="https://github.com/user-attachments/assets/ca244bb6-1fde-4070-a21f-d67924843871" />
+
 **Data file**: `data_exports/06c_retro_industry.csv`
 
 A horizontal bar chart ranks industries by the count of retroactive filings. Retail & Food is the top user; Logistics, Public/Nonprofit, and Manufacturing are highlighted as secondary heavy users.
@@ -185,6 +197,7 @@ Retail & Food dominates retroactive filing volume, reflecting COVID-driven store
 
 ### Page 14 — Layoff Size: Valid vs. Retroactive
 <img width="953" height="746" alt="image" src="https://github.com/user-attachments/assets/48e57c1e-802b-4054-8936-7b07721e339c" />
+
 **Data file**: `data_exports/06d_retro_size_compare.csv`
 
 A side-by-side boxplot compares the distribution of layoff size (workers per event) between valid filings and retroactive filings. Outliers are suppressed. Each box shows the median value inside and P25/P75 labels outside.
